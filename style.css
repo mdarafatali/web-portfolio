@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: auto;
+    height: auto;
     width: 80%;
     padding: 5%;
 
@@ -44,6 +45,10 @@ h1{
     padding: 10px 20px;
     border-radius: 5px;
     line-height: 60px;
+}
+
+.link-button a i{
+    padding: 10px;
 }
 
 .about{
@@ -121,4 +126,98 @@ h1{
 .img-one p{
     font: 20px;
     font-family: sans-serif;
+}
+
+.bottom-img{
+    margin: auto;
+    width: 700px;
+    height: 140px;
+}
+
+.bottom-img-div{
+    margin: auto;
+    background-repeat: no-repeat;
+    background-image: url("images/Group_33094_1.png");
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-position: center;
+    box-shadow: 10px 10px 40px;
+    
+}
+
+.work-inquire{
+    width: 40%;
+    color: white;
+    padding: 3%;
+    margin-left: 3%;
+    float: left;
+}
+
+.work-inquire h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.chat-button{
+    float: left;
+    width: 30%;
+    padding: 8% 0% 8% 16%;
+    margin-left: 5%;
+    
+}
+
+.chat-button a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 5px;
+}
+
+.last-section{
+    width: 100%;
+}
+
+.stay-connected{
+    margin-top: 10%;
+    width: 100%;
+}
+
+.stay-connected h2{
+    text-align: center;
+}
+
+.stay-connected h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.icon-div{
+    height: 100px;
+    width: 100%;
+    padding-left: 40%;
+}
+
+.icon-div-one{
+    margin: auto;
+    float: left;
+}
+
+.icon-div-one a img{
+    height: 40px;
+    padding: 15px;
+}
+
+.footer-div{
+    width: 100%;
+    height: 50px;
+    padding-top: .4%;
+    border-radius: 5px;
+
+}
+
+.footer-div p{
+    text-align: center;
 }
