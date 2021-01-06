@@ -62,14 +62,63 @@ h1{
 }
 
 .image-section{
-    height: 600px;
+    height: 700px;
+    margin-top: 40px;
 
 }
 
 .image-div{
     height: 90%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background: rgb(240, 239, 239);
+    margin: 2%;
+    background: white;
     box-shadow: 10px 10px 40px;
+    border-radius: 7px;
+}
+
+.img-text{
+    margin: auto;
+    height: 10%;
+    padding: 2%;
+    text-align: center;
+}
+
+.img-text h2{
+    font-size: 30px;
+}
+
+.img-main-div{
+
+    height: 70%;
+    padding: 5%;
+}
+
+.img-one{
+    margin: auto;
+    height: 70%;
+    width: 27%;
+    padding: 1%;
+    margin: 2%;
+    float: left;
+    box-shadow: 10px 10px 40px;
+    border-radius: 5px;
+}
+
+.img-one img{
+    margin: auto;
+    width: 100%;
+    height: 70%;
+    line-height: 0;
+   
+}
+
+
+.img-one h4{
+    line-height: 10px;
+    font: 40px;
+
+}
+
+.img-one p{
+    font: 20px;
+    font-family: sans-serif;
 }
